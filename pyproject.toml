@@ -1,0 +1,17 @@
+[project]
+name = "vioms2tg-reposter"
+version = "0.1.0"
+description = "tg bot for sending news from vioms public channels to tg channel as telegra.ph posts"
+authors = [
+    {name = "Atmayoni das",email = "apxont@disroot.org"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
